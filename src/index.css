@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Girassol', cursive;
+  color: #393c41;
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
