@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
 
-function Section({ title, description, leftBtnText, rightBtnText }) {
+function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
     return (
-        <Wrap>
+        <Wrap bgImage={backgroundImg}>
             <ItemText>
                 <h1>{ title }</h1>
                 <p>{ description }</p>
@@ -36,6 +36,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between; //vertical
     align-items: center; //horizontal
+    background-image: ${props => `url("/img/${props.bgImage}")` }
 `
 const ItemText = styled.div`
     padding-top: 15vh;
