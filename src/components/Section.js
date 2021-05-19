@@ -46,6 +46,7 @@ const Wrap = styled.div`
     background-image: ${props => `url("/img/${props.bgImage}")`}
 `
 const ItemText = styled.div`
+    z-index: -1;
     padding-top: 15vh;
     text-align: center;
 `
