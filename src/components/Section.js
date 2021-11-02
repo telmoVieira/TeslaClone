@@ -30,6 +30,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
     )
 }
 
+
 export default Section
 
 const Wrap = styled.div`
